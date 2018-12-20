@@ -7,9 +7,9 @@
 
   box-sizing: border-box;
 
-  margin: 0;
+  margin: 10px;
 
-  padding: 0;
+  padding: 10px;
 
   font-family: arial, sans-serif;
 
@@ -41,12 +41,23 @@ p {
 
   border: 1px solid black;
 
-  margin-bottom: 15px;
+  margin: 5px 0px 5px 5px;
 
-  margin: 5px 0px 5px 15px;
+  padding: 15px;
 
-  padding: 15px 15px 10px 15px;
+}
 
+#ti1 {
+  background-color: #DEB666;
+  float: right;
+}
+#ti2 {
+  background-color: #a52a2a;
+  float: right;
+}
+#ti3 {
+  float: right;
+  background-color: #fff;
 }
 
 div#container {
@@ -80,7 +91,7 @@ p strong {
 
   color: white;
 
-  width: 28%;
+  width: 23%;
 
   height: 100%;
   }
@@ -95,7 +106,7 @@ p strong {
    
   background-color: #DEB999;
 
-  width: 28%;
+  width: 23%;
 
   height: 100%;
 
@@ -110,7 +121,7 @@ p strong {
 
   background-color: #DEB666;
 
-  width: 28%;
+  width: 23%;
 
   height: 100%;
 
@@ -125,7 +136,7 @@ p strong {
 
 /********** Medium devices only **********/
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 921px) {
 
   div#container {
     margin-left: 300px;
@@ -138,7 +149,7 @@ p strong {
 
   top: 70px;
 
-  left: 0px;
+  left: 5px;
 
   background-color: #a52a2a;
 
@@ -151,11 +162,11 @@ p strong {
 }
 
 #p2 {
-  position: relative;
+  position: absolute;
 
   top: 70px;
 
-  left: 0px;
+  left: 400px;
 
   background-color: #DEB887;
 
@@ -166,15 +177,15 @@ p strong {
 }
 
 #p3 {
-  position: relative;
+  position: absolute;
 
-  top: 70px;
+  top: 400px;
 
-  left: 545px;
+  left: 20px;
 
   background-color: #DEB666;
 
-  width: 48%;
+  width: 100%;
 
   height: 100%;
 
@@ -185,11 +196,17 @@ p strong {
 
 /********** Mobil devices only **********/
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
  
 
 #p1 {
+
+  float: left;
+
+  top: 45;
+
+  left: 10;
 
   background-color: #a52a2a;
 
@@ -202,11 +219,11 @@ p strong {
 }
 
 #p2 {
-  /*position: relative;
+  position: absolute;
 
-  top: 70px;
+  top: 80px;
 
-  left: 0px;*/
+  left: 0px;
 
   background-color: #DEB887;
 
@@ -219,9 +236,11 @@ p strong {
 #p3 {
   position: absolute;
 
-  top: 45px;
+  float: left;
 
-  right: 300px;
+  top: 145px;
+
+  right: 0px;
 
   margin: 0 auto;
 
@@ -235,7 +254,6 @@ p strong {
 
 }
 
-*/
 
 
 
